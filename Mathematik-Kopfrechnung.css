@@ -1,0 +1,95 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+/* ===== NAVIGATION ===== */
+.nav-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1.5rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-link {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 0.7rem 1.5rem;
+    border-radius: 25px;
+    transition: background-color 0.3s;
+}
+.nav-menu {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+nav {
+    background: linear-gradient(135deg, #f0baba, #e0a8a8);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+nav h1 {
+    color:#ffffff;
+    font-size: 2rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+nav {
+    background: linear-gradient(135deg, #f0baba, #e0a8a8);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+nav h1 {
+    color: #ffffff;
+    font-size: 2rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+.nav-link:hover, .nav-link.active {
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+
+/* ===== WILLKOMMENSBEREICH ===== */
+.welcome-section {
+    margin-bottom: 3rem;
+}
+.welcome-card {
+    background: #ffffff;
+    padding: 2.5rem;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    border-top: 5px solid #f0baba;
+}
+.welcome-card h2 {
+    color: #e0a8a8;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+.welcome-card p {
+    color: #666666;
+    font-size: 1.1rem;
+}
+
+
+/* ===== KLASSENAUSWAHL ===== */
+.selection-section {
+    margin-bottom: 3rem;
+}
+.section-title {
+    text-align: center;
+    color: #e0a8a8;
+    margin-bottom: 2rem;
+    font-size: 1.8rem;
+}
+.klassen-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 1.5rem;
+}
